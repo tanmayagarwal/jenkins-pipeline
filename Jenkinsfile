@@ -14,6 +14,7 @@ pipeline {
         stage('package') {
             steps {
                 sh "mvn package"
+                echo "Hello World!"
             }
         }
     }
